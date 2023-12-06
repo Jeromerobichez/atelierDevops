@@ -29,4 +29,6 @@ jobs:
     - name: Create HTML
       run: bash make_html.sh FlatBiblio/bin/Debug/net8.0/FlatBiblio
     - name: Deploy on Github Pages
-      run: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: FlatBiblio

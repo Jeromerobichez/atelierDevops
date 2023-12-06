@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Create HTML
-      run: bash make_html.sh https://github.com/Jeromerobichez/atelierDevops/blob/main/make_html.sh
+      run: bash make_html.sh 
